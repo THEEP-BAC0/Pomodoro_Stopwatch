@@ -1,0 +1,275 @@
+/*
+   -------------------------------------------
+      GLOBAL
+   -------------------------------------------
+*/
+
+QWidget {
+    font-family: 'Courier New';
+    font-weight: bold;
+}
+
+/* ===========================================
+   WINDOW SPECIFIC
+   =========================================== */
+
+QWidget#RoundWidget {
+    border-radius: 10px;
+}
+
+QWidget#RoundWidget[theme="pink"] {
+    background-color: rgb(241, 104, 125);
+}
+
+QWidget#RoundWidget[theme="cyan"] {
+    background-color: rgb(150, 240, 255);
+}
+
+QWidget#RoundWidget[theme="purple"] {
+    background-color: rgba(221, 111, 240, 1);
+}
+
+/* ===========================================
+   TITLE BAR
+   =========================================== */
+
+QFrame#TitleBar,
+QLabel#Title {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+QFrame#TitleBar[theme="pink"],
+QLabel#Title[theme="pink"] {
+    background-color: rgba(120, 30, 55, 1);
+}
+
+QFrame#TitleBar[theme="cyan"],
+QLabel#Title[theme="cyan"] {
+    background-color: rgba(60, 150, 170, 1);
+}
+
+QFrame#TitleBar[theme="purple"],
+QLabel#Title[theme="purple"] {
+    background-color: rgba(148, 60, 170, 1);
+}
+
+QLabel#Title {
+    font-weight: bold;
+}
+
+QLabel#Title[theme="pink"],
+QLabel#Title[theme="purple"] {
+    color: white;
+}
+
+QLabel#Title[theme="cyan"] {
+    color: black;
+}
+
+/* Buttons */
+QPushButton#ExitButton,
+QPushButton#MinimizeButton,
+QPushButton#MaximizeButton {
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 0;
+    font-weight: bold;
+}
+
+/* Pink buttons */
+QPushButton#ExitButton[theme="pink"],
+QPushButton#MinimizeButton[theme="pink"],
+QPushButton#MaximizeButton[theme="pink"] {
+    border: 2px solid rgb(180, 50, 80);
+    color: white;
+}
+
+/* Purple buttons */
+QPushButton#ExitButton[theme="purple"],
+QPushButton#MinimizeButton[theme="purple"],
+QPushButton#MaximizeButton[theme="purple"] {
+    border: 2px solid rgba(220, 100, 216, 1);
+    color: white;
+}
+
+/* Cyan buttons */
+QPushButton#ExitButton[theme="cyan"],
+QPushButton#MinimizeButton[theme="cyan"],
+QPushButton#MaximizeButton[theme="cyan"] {
+    border: 2px solid rgb(100, 200, 220);
+    color: black;
+}
+
+/*
+   -------------------------------------------
+      PINK THEME
+   -------------------------------------------
+*/
+
+QWidget[theme="pink"] {
+    background-color: rgb(241, 104, 125);
+    color: white;
+}
+
+QLabel[theme="pink"] {
+    color: white;
+}
+
+QLineEdit[theme="pink"],
+QTimeEdit[theme="pink"],
+QComboBox[theme="pink"] {
+    background-color: rgb(230, 150, 160);
+    border: 2px solid rgb(200, 80, 100);
+    border-radius: 6px;
+    padding: 4px 8px;
+    color: white;
+}
+
+QPushButton[theme="pink"] {
+    background-color: rgb(220, 70, 100);
+    border: 2px solid rgb(180, 50, 80);
+    border-radius: 8px;
+
+    /* 3D raised effect */
+    border-bottom: 4px solid rgb(150, 40, 70);
+    padding: 6px 12px;
+}
+
+QPushButton[theme="pink"]:hover {
+    background-color: rgb(235, 85, 115);
+}
+
+QPushButton[theme="pink"]:pressed {
+    border-bottom: 2px solid rgb(120, 30, 55);
+    padding-top: 8px;
+    padding-bottom: 4px;
+}
+
+/*
+   -------------------------------------------
+      CYAN THEME
+   -------------------------------------------
+*/
+
+QWidget[theme="cyan"] {
+    background-color: rgb(150, 240, 255);
+    color: black;
+}
+
+QLabel[theme="cyan"] {
+    color: black;
+}
+
+QLineEdit[theme="cyan"],
+QTimeEdit[theme="cyan"],
+QComboBox[theme="cyan"] {
+    background-color: rgb(200, 255, 255);
+    border: 2px solid rgb(130, 220, 235);
+    border-radius: 6px;
+    padding: 4px 8px;
+    color: black;
+}
+
+QPushButton[theme="cyan"] {
+    background-color: rgb(120, 220, 240);
+    border: 2px solid rgb(100, 200, 220);
+    border-radius: 8px;
+
+    /* 3D effect */
+    border-bottom: 4px solid rgb(80, 170, 190);
+    padding: 6px 12px;
+}
+
+QPushButton[theme="cyan"]:hover {
+    background-color: rgb(140, 235, 255);
+}
+
+QPushButton[theme="cyan"]:pressed {
+    border-bottom: 2px solid rgb(60, 150, 170);
+    padding-top: 8px;
+    padding-bottom: 4px;
+}
+
+/*
+   -------------------------------------------
+      Purple THEME
+   -------------------------------------------
+*/
+
+QWidget[theme="purple"] {
+    background-color: rgba(221, 111, 240, 1);
+    color: black;
+}
+
+QLabel[theme="purple"] {
+    color: black;
+}
+
+QLineEdit[theme="purple"],
+QTimeEdit[theme="purple"],
+QComboBox[theme="purple"] {
+    background-color: rgba(232, 200, 255, 1);
+    border: 2px solid rgba(235, 130, 226, 1);
+    border-radius: 6px;
+    padding: 4px 8px;
+    color: black;
+}
+
+QPushButton[theme="purple"] {
+    background-color: rgba(240, 120, 230, 1);
+    border: 2px solid rgba(220, 100, 216, 1);
+    border-radius: 8px;
+
+    /* 3D effect */
+    border-bottom: 4px solid rgba(183, 80, 190, 1);
+    padding: 6px 12px;
+}
+
+QPushButton[theme="purple"]:hover {
+    background-color: rgba(240, 140, 255, 1);
+}
+
+QPushButton[theme="purple"]:pressed {
+    border-bottom: 2px solid rgba(148, 60, 170, 1);
+    padding-top: 8px;
+    padding-bottom: 4px;
+}
+
+/* ===========================================
+   STOPWATCH SCREEN SPECIFIC
+   =========================================== */
+
+QLabel#StopwatchLabel {
+    font-size: 36px;
+    padding: 12px;
+}
+
+QPushButton#StopwatchButton,
+QPushButton#ProceedButton {
+    font-size: 16px;
+}
+
+
+/* ===========================================
+   POMODORO SCREEN SPECIFIC
+   =========================================== */
+
+QLabel#StateLabel {
+    font-size: 28px;
+    padding: 8px;
+}
+
+QPushButton#CountdownButton,
+QPushButton#SwitchButton {
+    font-size: 16px;
+}
+
+QPushButton#SettingsButton {
+    padding: 0;
+}
+
+QWidget#PomodoroScreen {
+    border-radius: 10px;
+    padding: 10px;
+}

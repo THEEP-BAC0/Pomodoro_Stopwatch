@@ -1,0 +1,25 @@
+Notes:
+ - Start a stopwatch when you begin working, and keep going until you naturally lose focus — whether you check your phone, get distracted, or switch tasks. When that happens, stop the stopwatch.
+ - Whatever number you see is your baseline focus time — the amount of time your brain can focus right now without force.
+ - Take a break that matches the effort you just spent: shorter baseline means a short break (1–3 minutes), and longer baseline means a slightly longer break (5–10 minutes).
+ - Set a countdown timer for the length of your baseline focus time.
+ - Repeat the process until you're done.
+ - Your baseline resets each day, so begin fresh every time you start work.
+ - Optionally, record your session times to see patterns in your focus and improve over time.
+
+Q/A
+
+Q: What is this app for?
+A: People with ADHD or need to study
+
+Q: Why is this important?
+A: It is important because it allows people to stay focused on something that needs attention while prioritizing how much you can do of that and taking breaks 
+
+Q: What kind of app is this?
+A: This app's purpose is to be a study app.
+
+Q: What is this app's design?
+A: There are simple buttons to start the stopwatch, set the baseline, and create a loop of breaks and time to study.
+
+Q: When can it be done?
+A: 2 weeks.
