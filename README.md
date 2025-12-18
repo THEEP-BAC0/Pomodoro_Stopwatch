@@ -29,3 +29,8 @@ This results in sessions that feel more natural and sustainable.
 - Anyone who struggles with fixed-time productivity systems
 - People who want structure without rigidity
 - Users who prefer adaptive tools over strict rules
+---
+
+## Availability
+
+- MacOS
